@@ -40,12 +40,22 @@ lib/
 
 ##  Home Screen
 
-assets/screenshots/home.png
+![Home Screen](assets/screenshots/get_task.png)
 
 ---
 
 ##  Add Task Screen
 
-assets/screenshots/add_task.png
+![Add Expense](assets/screenshots/add_task.png)
 
 ---
+
+##  Update Expense Screen
+
+![Update Expense](assets/screenshots/edit_task.png)
+![Update Expense](assets/screenshots/updated_task.png)
+
+---
+
+##  Delete Expense Action
+![Delete Expense](assets/screenshots/delete_task.png)
