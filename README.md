@@ -50,12 +50,12 @@ lib/
 
 ---
 
-##  Update Expense Screen
+##  Update Task Screen
 
 ![Update Expense](assets/screenshots/edit_task.png)
 ![Update Expense](assets/screenshots/updated_task.png)
 
 ---
 
-##  Delete Expense Action
+##  Delete Task Action
 ![Delete Expense](assets/screenshots/delete_task.png)
