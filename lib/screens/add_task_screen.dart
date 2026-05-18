@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import '../models/task.dart';
 import 'package:provider/provider.dart';
 import '../providers/task_provider.dart';
 
 class AddTaskScreen extends StatefulWidget {
-  const AddTaskScreen({super.key});
+  final Task? task;
+  const AddTaskScreen({super.key, this.task});
 
   @override
   State<AddTaskScreen> createState() => _AddTaskScreenState();

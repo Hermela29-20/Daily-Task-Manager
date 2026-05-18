@@ -45,11 +45,27 @@ class _HomeScreenState extends State<HomeScreen> {
                     task.completed ? Icons.check_circle : Icons.circle_outlined,
                     color: task.completed ? Colors.purple : Colors.pinkAccent,
                   ),
-                  trailing: IconButton(
-                    icon: const Icon(Icons.delete, color: Colors.red),
-                    onPressed: () {
-                      provider.deleteTask(task.id!);
-                    },
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        icon: const Icon(Icons.edit, color: Colors.blue),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => AddTaskScreen(task: task),
+                            ),
+                          );
+                        },
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.delete, color: Colors.red),
+                        onPressed: () {
+                          provider.deleteTask(task.id!);
+                        },
+                      ),
+                    ],
                   ),
                 ),
               );
